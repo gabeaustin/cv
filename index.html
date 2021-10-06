@@ -4,36 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
     />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>CV - Curriculum Vitae</title>
   </head>
   <body>
     <header>
-      <div>Gabe Austin</div>
-      <div>Web Developer</div>
+      <div class="ui text menu">
+        <a class="item"> Profile </a>
+        <a class="item"> Contact </a>
+        <a class="item"> Experience </a>
+        <a class="item"> Certifications </a>
+        <a class="item"> Education </a>
+        <a class="item"> Personal Skills </a>
+        <a class="item"> Skills </a>
+      </div>
     </header>
 
     <main class="ui two column doubling stackable grid container">
+      <div class="top-main-header">
+        <div>Gabe Austin</div>
+        <div>Web Developer</div>
+      </div>
       <div class="column">
-        <h3>Profile</h3>
+        <h3 class="ui segment header">Profile</h3>
         <h4>
           I am Gabriel Austin - a creative Front-End Web Developer offering 2+
           years of experience in designing and developing responsive websites.
         </h4>
 
-        <h3>Contact</h3>
+        <h3 class="ui segment header">Contact</h3>
         <ul>
           <li>www.myboygabe.com (Portfolio)</li>
           <li>www.bit.ly/gabeaustin (Work Samples)</li>
           <li>gabriel.austin2019@gmail.com</li>
         </ul>
 
-        <h3>Experience</h3>
+        <h3 class="ui segment header">Experience</h3>
         <ul>
           <li>Computer Science Teacher, 07/20 - 11/20</li>
           <li>Legacy College Prep Charter School, Bronx, NY</li>
@@ -45,7 +56,7 @@
           <li>ProctorU, Birmingham, AL</li>
         </ul>
 
-        <h3>Certifications</h3>
+        <h3 class="ui segment header">Certifications</h3>
         <ul>
           <li>Certified Scrum Master (CSM)</li>
           <li>Scrum, Inc.</li>
@@ -54,7 +65,7 @@
       </div>
 
       <div class="column">
-        <h3>Education</h3>
+        <h3 class="ui segment header">Education</h3>
         <ul>
           <li>Certificate of Completion</li>
           <li>Full-Stack Web Dev. Bootcamp</li>
@@ -67,7 +78,7 @@
           <li>Alabama State University</li>
         </ul>
 
-        <h3>Personal Skills</h3>
+        <h3 class="ui segment header">Personal Skills</h3>
         <ul>
           <li>Growth Mindset</li>
           <li>Good Communicator</li>
@@ -77,7 +88,7 @@
           <li>Creative</li>
         </ul>
 
-        <h3>Skills</h3>
+        <h3 class="ui segment header">Skills</h3>
         <ul>
           <li>HTML</li>
           <li>CSS/Bootstrap</li>
@@ -91,6 +102,12 @@
 
     <footer>Created by Gabriel Austin.</footer>
 
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script src="semantic.js"></script>
   </body>
 </html>
